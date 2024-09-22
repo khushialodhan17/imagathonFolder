@@ -5,11 +5,11 @@
     align-items: baseline;
     border: 2px;
     border-color: black;
-    background-color:lavender;
+    background-color:beige;
 }
 
 body{
-    background-color: lavender;
+    background-color: beige;
 }
 .container1{
     position: relative;
@@ -58,7 +58,7 @@ body{
     z-index: 1;
     border-color: black;
     border: 2px;
-    background-color:cornsilk;
+    background-color:rgb(147, 102, 102);
     margin-left: 350px;
 
 }
@@ -113,7 +113,7 @@ body{
         z-index: 1;
         border-color: black;
         border: 2px;
-        background-color:palegreen;
+        background-color:yellowgreen;
     margin-left: 451px;
     }
     #text2{
@@ -168,7 +168,7 @@ body{
     z-index: 1;
     border-color: black;
     border: 2px;
-    background-color:cornsilk;
+    background-color:rgb(147, 102, 102);
     margin-left: 350px;
  }
  #text3{

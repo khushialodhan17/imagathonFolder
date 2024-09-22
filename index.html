@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="facilities.css">
     <link rel="stylesheet" href="msg.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="stylesofimage.css">
 </head>
 <body>
+<div class="wrapper">
     <div>
         <!-- navbar ki shuruat -->
 <header>
@@ -39,19 +41,34 @@
     </nav>
     <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
 </header>
+
 <div class="HomeDiv">
     <section id="home">
-        <div class="newFeature1">
-        </br>
-        <button id="goToWhiteboard">NEW FEATURE!! - WhiteBoard</button>
-        </br>
+        <div class="features">
+            <div class="newFeature1">
+            </br>
+            <button id="goToWhiteboard">NEW FEATURE!! - WhiteBoard</button>
+            </br>
+            </div>
+             <div class="newFeature2">
+            <button class="flash-button" onclick="window.location.href='tutor.html'">Go to Tutoring Feature</button>
+            </div>
         </div>
-        <div class="WelcomeDUV">
-            <h1>WELCOME TO DUV INTERNATIONAL SCHOOL</h1>
+
+        <div class="slider">
+            <div class="slides">
+                <img src="welcome.png" alt="Image 1">
+                <img src="welcome2.jpg" alt="Image 2">
+                <img src="welcome3.jpg" alt="Image 3">
+                <img src="extraCurricular2.jpg" alt="Image 4">
+                <!-- Repeat images for infinite effect -->
+                <img src="welcome.png" alt="Image 1">
+                <img src="welcome2.jpg" alt="Image 2">
+                <img src="welcome3.jpg" alt="Image 3">
+                <img src="extraCurricular2.jpg" alt="Image 4">
+            </div>
         </div>
-        <div class="newFeature2">
-        <button class="flash-button" onclick="window.location.href='tutor.html'">Go to Tutoring Feature</button>
-        </div>
+        
     </section>
 </div>
  
@@ -258,24 +275,6 @@
         <!-- timeline code ends -->
  </section>
 
-
- <section id="facilities">
-    
- </section>
-
-
-<!-- navbar khtm -->
-
-<!-- </br>
-    <button id="goToWhiteboard">NEW FEATURE!! - WhiteBoard</button>
-</br>
-<button class="flash-button" onclick="window.location.href='tutor.html'">Go to Tutoring Feature</button> -->
-
-         
-            
-
-
-<!--  code for curriculum starts-->
   
 
 <footer>
@@ -292,6 +291,7 @@
         </div>
     </div>
 </footer>
+</div>
  
 
     <script src="script.js"></script>

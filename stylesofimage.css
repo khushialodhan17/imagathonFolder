@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: calc(200%); /* Adjust width to accommodate repeated images */
+    animation: slide 16s linear infinite;
+    /* border: 2px black solid; */
+}
+
+.slides img {
+    width: 25%; /* Adjust width to fit all images in the container */
+    height: 450px;
+    margin-top: 100px;
+    
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .slides img {
+        width: 50%;
+    }
+}

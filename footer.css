@@ -1,14 +1,33 @@
-body {
+/* Make the entire page layout use flexbox */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: Arial, sans-serif;
-    background-color: beige;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1; /* This allows the content to take up available space */
+    padding: 20px;
+}
+
+h1, p {
+    margin: 0 0 20px;
+}
+
+/* Footer Styling */
 footer {
+    background-color: beige;
     padding: 20px;
     text-align: center;
-    overflow: hidden; /* To hide the content that moves out of view */
+    overflow: hidden;
     position: relative;
-    background-color: beige;
+    width: 100%;
 }
 
 .scroll-container {
@@ -75,4 +94,9 @@ footer {
     100% {
         transform: translateX(-100%);
     }
+}
+
+/* Sticky footer: make sure the footer is always at the bottom */
+footer {
+    flex-shrink: 0; /* Keeps footer from shrinking and ensures it's placed at the bottom */
 }

@@ -10,7 +10,8 @@ function createWhiteboard() {
     const whiteboard = document.createElement('div');
     whiteboard.className = 'whiteboard';
     const canvas = document.createElement('canvas');
-    canvas.width = 1000;
+    canvas.width = 1200; // Update the width of the canvas to match the whiteboard
+
     canvas.height = 600;
     whiteboard.appendChild(canvas);
     whiteboardContainer.appendChild(whiteboard);
@@ -126,6 +127,7 @@ document.getElementById('eraseAll').addEventListener('click', () => {
 addPage();
 
 document.getElementById('goToWhiteboard').addEventListener('click', function() {
-    window.location.href = 'w.html'; // Replace with your actual whiteboard page URL
+    window.open('path/to/your/whiteboard.html', '_blank'); // Replace with your actual whiteboard page URL
 });
+
 

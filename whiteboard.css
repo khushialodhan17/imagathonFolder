@@ -2,11 +2,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: #fafafa;
 }
 
 .toolbar {
-    background: #a275d3; /* Lavender background */
+    background: #f3e8ff; /* Lavender background */
     color: black;
     padding: 10px;
     display: flex;
@@ -25,14 +25,13 @@ button, input, select {
     border: 1px solid #ddd;
     outline: none;
     cursor: pointer;
-    background-color: lavender; /* Light pink background */
+    background-color: #ffe4e6; /* Light pink background */
     color: #333;
     transition: background-color 0.3s ease;
 }
 
 button:hover, input:hover, select:hover {
-    border: yellow;
-    background-color: yellow; /* A brighter pink on hover */
+    background-color: #ffccd5; /* A brighter pink on hover */
 }
 
 #whiteboardContainer {

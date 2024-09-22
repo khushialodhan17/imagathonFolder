@@ -124,3 +124,8 @@ document.getElementById('eraseAll').addEventListener('click', () => {
 
 // Initialize the first page
 addPage();
+
+document.getElementById('goToWhiteboard').addEventListener('click', function() {
+    window.location.href = 'w.html'; // Replace with your actual whiteboard page URL
+});
+

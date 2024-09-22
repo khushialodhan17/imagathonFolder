@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Feature</title>
+    <link rel="stylesheet" href="tutor.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tutoring Platform</h1>
+        
+        <div class="login-section" id="login-section">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Enter your name">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div class="profile-section" id="profile-section" style="display: none;">
+            <h2>Your Profile</h2>
+            <div id="profile-name"></div>
+            <div>Your Contributions: <span id="contributions">0</span></div>
+            <button onclick="logout()">Logout</button>
+        </div>
+
+        <div class="post-doubt" id="post-doubt-section" style="display: none;">
+            <h2>Post a Doubt</h2>
+            <input type="text" id="doubt" placeholder="Enter your doubt here...">
+            <select id="category">
+                <option value="Math">Math</option>
+                <option value="Science">Science</option>
+                <option value="English">English</option>
+            </select>
+            <button onclick="postDoubt()">Post Doubt</button>
+        </div>
+
+        <div class="doubts-list" id="doubts-list">
+            <h2>Posted Doubts</h2>
+        </div>
+    </div>
+
+    <script src="tutor.js"></script>
+</body>
+</html>

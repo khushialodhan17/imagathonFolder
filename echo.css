@@ -1,0 +1,159 @@
+/* .ndimgs {
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /*.selfImg1, .selfImg2, .selfImg3 {
+    width: 30%;
+    height: auto;
+    margin: 10px; 
+  } */
+
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: pink;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10; /* Ensure it stays on top */
+    background-color: rgba(255, 255, 255, 0.5); /* Add a light background for visibility */
+    padding: 5px;
+    border-radius: 50%; /* Optional, makes it circular */
+  }
+  
+  .ff-content {
+    position: relative;
+    background-color: royalblue;
+    margin: 15% auto;
+    padding: 20px;
+    width: 700px;
+    max-width: 700px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+    height: 520px;
+    z-index: 5;
+    border: 2px darkblue solid;
+    scrollbar-width: thin;
+    scrollbar-color: royalblue lightblue;
+    position: relative; /* Ensure positioning of elements inside modal */
+  }
+  
+  .ndimgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between images */
+    width: 100%;
+    margin-top: 30px; /* Push images down from the top */
+  }
+  
+
+
+
+
+
+  /* .ndimgs {
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    width: 100%;
+  } */
+  
+  .selfImg1, .selfImg2, .selfImg3 {
+    width: 30%; /* Adjust width to keep them organized */
+    height: auto;
+  }
+  
+  
+  /* Modal styles */
+  .ff {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+  }
+  
+  .ff-button {
+    margin: -10px;
+    border-radius: 30%;
+    border: none;
+    width: 115%;
+  }
+  
+  /* Modal Content box */
+  /* .ff-content {
+    position: relative;
+    background-color: royalblue;
+    margin: 15% auto; 
+    padding: 20px;
+    width: 700px; 
+    max-width: 700px; 
+    max-height: 100vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+    height: 520px;
+    z-index: 5;
+    border: 2px darkblue solid;
+    scrollbar-width: thin;
+    scrollbar-color: royalblue lightblue;
+  } */
+  
+  .ff-content::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .ff-content::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    border-radius: 10px;
+  }
+  
+  .ff-content::-webkit-scrollbar-track {
+    background-color: lightgray;
+  }
+  
+  /* Close button */
+  /* .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: pink;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  } */
+  
+  .close-btn:hover {
+    color: rgb(238, 74, 101);
+    font-size: 45px;
+  }
+  
+  /* Images within modal */
+  .ff-content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .selfImg1, .selfImg2, .selfImg3 {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+  }
+  

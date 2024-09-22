@@ -1,0 +1,97 @@
+/* Modal default hidden state */
+.ff {
+    display: none; /* Hidden by default */
+    position:fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+  }
+
+  .ff-button{
+    margin:-10px;
+    border-radius: 30%;
+    border:none;
+    width: 115%;
+  }
+  
+  /* Modal Content box */
+  .ff-content {
+    position: relative;
+    background-color: rgb(165, 237, 165);
+    margin: 15%; /* Center it vertically */
+    padding: 20px;
+    width: 700px; /* You can change this to adjust the size */
+    max-width: 700px; /* Optional max-width */
+    max-height: 100vh;
+    overflow-y:scroll;
+    border-radius: 10px;
+    height: 520px;
+    z-index: 50;
+    left: 100px;
+    top:-190px;
+    border: 2px darkblue solid;
+    scrollbar-width:thin;
+    scrollbar-color: royalblue lightblue;
+  }
+
+  .ff-content::-webkit-scrollbar{
+    width:10px;
+  }
+
+  .ff-content::-webkit-scrollbar-thumb{
+    background-color: darkgray;
+    border-radius: 10px;
+  }
+
+  .ff-content::-webkit-scrollbar-track{
+    background-color: lightgray;
+  }
+
+  /* ff-writeup */
+  .ff-writeup{
+    color: rgb(252, 198, 207);
+  }
+  
+  /* Close button */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: pink;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color:rgb(238, 74, 101);
+    font-size: 45px;
+  }
+
+  .ff-content div{
+    /* border: 2px yellow solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .ff-content div .selfImg1{
+    width: 55%;
+    margin-top: 10px;
+    height: 55%;
+    left:25px;
+    top:80px;
+
+  }
+
+  .ff-content div .selfImg2{
+    width: 55%;
+    margin-top: 10px;
+    height: 55%;
+    left:255px;
+    top:330px;
+
+  }

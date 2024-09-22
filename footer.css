@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; /* To hide the content that moves out of view */
+    position: relative;
+    background-color: beige;
+}
+
+.scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+.scroll-content {
+    display: inline-flex;
+    align-items: center;
+    animation: scroll 10s linear infinite;
+}
+
+.scroll-content p {
+    margin: 0 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.scroll-content a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Icon Images */
+.fb-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+}
+
+.ig-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+}
+
+.li-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg');
+}
+
+.tw-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg');
+}
+
+.pi-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png');
+}
+
+/* Animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Messages</title>
+    <link rel="stylesheet" href="pdmsg.css">
+</head>
+<body>
+
+    <header>
+        School Messages
+    </header>
+
+    <div class="button-box">
+        <button class="main-button" onclick="showMessage('principal')">Principal's Message</button>
+        <button class="main-button" onclick="showMessage('director')">Director's Message</button>
+    </div>
+
+    <!-- Messages Container -->
+    <div class="container">
+        <!-- Principal's Message -->
+        <div id="principal-message" class="message-box" style="display:none;">
+            <h2>Principal’s Message</h2>
+            <p>
+                Success comes to those who work hard and stays with those who don’t rest on the past. Education is not merely the acquirement of facts but also of values that help us improve the different faces of mankind. It ensures that we leave the world a far better place than we found it.
+            </p>
+            <p>
+                We strive to map academic excellence with a strong human value system, deeply ingrained in the culture of our school. To achieve this, we feel that a paradigm shift in the minds of all stakeholders is necessary so that education is strengthened not only within the school but also at home. Our commitment to this will always persist.
+            </p>
+        </div>
+
+        <!-- Director's Message -->
+        <div id="director-message" class="message-box" style="display:none;">
+            <h2>Director’s Message</h2>
+            <p>
+                Every child is like a seed with the potential to grow when nourished with love and care under the right guidance. Childhood is the best time to lay the foundation of the core values essential for the development of tomorrow’s citizens. Our mission is to provide positive, all-around development to every child.
+            </p>
+            <p>
+                At DUV International School, the talent of each child is nurtured. We emphasize learning, not teaching. Education is a process that helps children achieve their full potential. Equal attention is given to both academic and co-curricular activities like sports, yoga, and cultural events.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage(messageType) {
+            // Hide both messages initially
+            document.getElementById('principal-message').style.display = 'none';
+            document.getElementById('director-message').style.display = 'none';
+
+            // Show the selected message
+            if (messageType === 'principal') {
+                document.getElementById('principal-message').style.display = 'block';
+            } else if (messageType === 'director') {
+                document.getElementById('director-message').style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+    border: 10px,black;
+}
+
+/* Default styles for larger screens */
+form {
+    width: 50%;
+    margin: auto;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    label, input, textarea {
+        display: f;
+        width: 100%;
+    }
+}

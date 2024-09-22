@@ -1,0 +1,19 @@
+.button-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-button:hover {
+    background-color: #45a049;
+}

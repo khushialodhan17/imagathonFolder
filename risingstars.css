@@ -1,0 +1,116 @@
+.container.left-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circleIcon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .ff {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+  }
+  
+  .ff-button {
+    margin: -10px;
+    border-radius: 30%;
+    border: none;
+    width: 115%;
+  }
+  
+  /* Modal Content box */
+  .ff-content {
+    position: relative;
+    background-color: royalblue;
+    width: 700px;
+    max-width: 700px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+    height: 520px;
+    z-index: 5;
+    border: 2px darkblue solid;
+    scrollbar-width: thin;
+    scrollbar-color: royalblue lightblue;
+    margin: 10% auto; /* Reduce margin for closer positioning */
+    padding: 20px;
+  }
+  
+  .ff-content::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .ff-content::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    border-radius: 10px;
+  }
+  
+  .ff-content::-webkit-scrollbar-track {
+    background-color: lightgray;
+  }
+  
+  .ff-writeup {
+    color: rgb(252, 198, 207);
+    text-align: center;
+  }
+
+  /* Award images styling */
+  .award-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adds space between images */
+  }
+  
+.award-images img {
+    width: 20%; /* Adjust width to prevent overlapping */
+    height: auto;
+    max-height: 150px; /* Set a max height to ensure images are not too tall */
+  }
+  
+  /* Close button */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: pink;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: rgb(238, 74, 101);
+    font-size: 20px;
+  }
+  
+  .text-box{
+    margin-left: 3px;
+  }
+
+  .ndimgs{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.selfImg{
+    width:100%;
+    height: auto;
+
+}
+  
+  

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard with Save PDF</title>
+    <link rel="stylesheet" href="w.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="toolbar">
+        <button id="addPage">Add Page</button>
+        <button id="save">Save as PDF</button>
+        <input type="color" id="colorPicker" value="#000000" title="Select Color">
+        <select id="shapePicker">
+            <option value="free">Free Draw</option>
+            <option value="rect">Rectangle</option>
+            <option value="circle">Circle</option>
+        </select>
+        <button id="toggleEraser">Eraser</button>
+        <input type="range" id="eraserSize" min="5" max="50" value="10">
+        <button id="eraseAll">Erase All</button>
+    </div>
+    <div id="whiteboardContainer"></div>
+    <script src="w.js"></script>
+</body>
+</html>

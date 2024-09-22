@@ -1,0 +1,178 @@
+.finalcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    border: 2px;
+    border-color: black;
+    background-color:lavender;
+}
+
+body{
+    background-color: lavender;
+}
+.container1{
+    position: relative;
+    /* height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0; */
+}
+#pray{
+    position: absolute;
+    z-index: 2;
+    animation-name: img1move;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 350px;
+}
+#prayimg{
+    position: absolute;
+    height: 300px;
+    width: 450px;
+    border: 2px;
+    z-index: 2;
+    animation-name: img1move;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in-out;
+}
+@keyframes img1move {
+    from{
+      top: 0px;
+      left: 0px;
+    }
+    to{
+      top: 0px;
+      left: 225px;
+    }
+}
+.text{
+    position: absolute;
+    height: 300px;
+    width: 450px;
+    z-index: 1;
+    border-color: black;
+    border: 2px;
+    background-color:cornsilk;
+    margin-left: 350px;
+
+}
+#text1{
+    position: absolute;
+    z-index: 1;
+    font-size: 18px;
+}
+.container2{
+    position: relative;
+    /* height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0; */
+}
+#debate{
+    position: absolute;
+    z-index: 2;
+    animation-name: img2move;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#debateimg{
+    position: absolute;
+    height: 300px;
+    width: 450px;
+    border: 2px;
+    z-index: 2;
+    animation-name: img2move;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in-out;
+}
+@keyframes img2move {
+    from{
+        top: 0px;
+        left: 225px;
+       }
+       to{
+      top: 0px;
+      left: 0px;
+       }
+    }
+    .texts{
+        position: absolute;
+        height: 300px;
+        width: 450px;
+        z-index: 1;
+        border-color: black;
+        border: 2px;
+        background-color:palegreen;
+    margin-left: 451px;
+    }
+    #text2{
+        position: absolute;
+    z-index: 1;
+    font-size: 18px;
+    }
+ .container3{
+    position: relative;
+    /* height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0; */
+ }
+ #exam{
+    position: absolute;
+    z-index: 2;
+    animation-name: img3move;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 350px;
+ }
+ #examimg{
+    position: absolute;
+    height: 300px;
+    width: 450px;
+    border: 2px;
+    z-index: 2;
+    animation-name: img3move;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in-out;
+ }
+ @keyframes img3move {
+    from{
+      top: 0px;
+      left: 0px;
+    }
+    to{
+      top: 0px;
+      left: 225px;
+    }
+}
+ #textes{
+    position: absolute;
+    height: 300px;
+    width: 450px;
+    z-index: 1;
+    border-color: black;
+    border: 2px;
+    background-color:cornsilk;
+    margin-left: 350px;
+ }
+ #text3{
+    position: absolute;
+    z-index: 1;
+    font-size: 18px;
+ }

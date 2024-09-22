@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUV International School</title>
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="stylesheet" href="freedomFestStyle.css">
+    <link rel="stylesheet" href="echo.css">
+    <link rel="stylesheet" href="risingstars.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="facilities.css">
+    <link rel="stylesheet" href="msg.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <div>
+        <!-- navbar ki shuruat -->
+<header>
+    <img class="duv" src="duvlogo.png" alt="school logo">
+    <nav class="navbar">
+        <a href="#home" class="active">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#gallery">GALLERY</a>
+
+        <!-- <label for="dropdown">CURRICULUM </label> -->
+        <select id="dropdown" onchange="navigate()">
+        </br>
+        <option value="">CURRICULUM</option>
+        <option value="ppcc.html">PRE PRIMARY</option>
+        <option value="pcc.html">PRIMARY</option>
+        <option value="mcc.html">MIDDLE</option>
+        </select>
+
+        <a href="facilities.html">FACILITIES</a>
+        <a href="admissionPage.html">ADMISSION FORM</a>
+        <a href="blogs.html">BLOG/NEWS</a>
+        <a href="contactPage.html">CONTACT</a>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+</header>
+<div class="HomeDiv">
+    <section id="home">
+        <div class="newFeature1">
+        </br>
+        <button id="goToWhiteboard">NEW FEATURE!! - WhiteBoard</button>
+        </br>
+        </div>
+        <div class="WelcomeDUV">
+            <h1>WELCOME TO DUV INTERNATIONAL SCHOOL</h1>
+        </div>
+        <div class="newFeature2">
+        <button class="flash-button" onclick="window.location.href='tutor.html'">Go to Tutoring Feature</button>
+        </div>
+    </section>
+</div>
+ 
+
+    <!-- <div class="welcomeMsg">
+        <h1>
+            Welcome to DUV International School
+        </h1>
+        <p>
+         DUV International School, established in 2020, is one of the best and leading educational School in Noida.
+         The school is known for its excellent infrastructure, faculty, innovative teaching methodology, excellent results and 
+         a plethora of activities that are conducted throughout the year, which provide a solid foundation for students to become 
+         confident scholars and responsible citizens.
+        </p>
+    </div> -->
+ 
+
+ <section id="about">
+    <h1>ABOUT US</h1>
+
+    <h2>
+        OUR VISION
+    </h2>
+        <p>
+        Our vision at DUV International School is to encourage our students to think,
+        take decisions independently and empowered to acquire value knowledge and skills  to become 
+        capable, responsible, and dedicated towards a tradition of excellence in this world.  full of knowledge,
+        confidence cum passion and cheer and to develop tolerance  to lead a happy, meaningful, balanced & graceful life
+        contributing towards progress, prosperity and peace in the world
+        </p>
+
+    <h2>
+        OUR MISSION
+    </h2>
+        <p>
+       DUV International School is committed to provide a stable, caring and supportive family like environment, where students can receive 
+       mature guidance through daily interaction with able faculty and become accountable, productive, and ethical citizens with the skill to 
+       think innovatively, reason critically, communicate effectively, and respect peoples of other cultures. DUV International School is also
+       eyeing upon providing such a resourceful learning environment where students can develop into “Citizen of the World” and to develop the
+       learning through differentiated, quality based with a commitment to development and quality teaching.To empower teachers to guide 
+       children with means to construct knowledge. To bring back an element of joy to school surrounding which would nudge the child to
+       grow into full bloom. and children be responsible citizen to face challenges of future.
+        </p>
+
+ </section>
+
+ <div id="msg">
+    <div class="button-box">
+        <button class="main-button" onclick="document.getElementById('principal-message').scrollIntoView();">
+            <a href="pdmsg.html">Principal's Message</a>
+        </button>
+        <button class="main-button" onclick="document.getElementById('director-message').scrollIntoView();">
+           <a href="pdmsg.html">Director's Message</a> 
+        </button>
+    </div>
+    
+</div>
+
+ <section id="gallery">
+    <div id="imagegallery">
+        <strong>OUR GALLERY</strong>
+
+        <!-- timeline code  -->
+        <div class="timeline">
+            <div class="container right-container">
+                <img class="circleIcon" src="goldCircle.png" alt="">
+                <button class="ff-button" id="openModalBtn">
+                    <div class="text-box">
+                        <small class="Link">Freedom Fest</small>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </button>
+                <div id="myff" class="ff">
+                    <div class="ff-content">
+                        <span class="close-btn">&times;</span>
+                        <h2 class="ff-writeup">Celebrating the freedom we have!!</h2>
+                            <div class="nationaldays">
+
+                                <div class="ndimgs"> 
+                                    <img class="selfImg1" src="NationalDay.jpg" alt="Republic Day">
+                                    <img class="selfImg2" src="NationalDays2.jpg" alt="Independence Day">
+                                </div>
+
+                            </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <!-- <div class="container left-container">
+                <img class="circleIcon" src="goldCircle.png" alt="">
+                <div class="text-box">
+                    <small class="Link">Creative Crew</small>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div> -->
+
+            <div class="container left-container" id="creativeCrewContainer">
+                <img class="circleIcon" src="goldCircle.png" alt="">
+                <button class="ff-button" id="creativeCrewBtn">
+                    <div class="text-box">
+                        <small class="Link">Creative Crew</small>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </button>
+                <div id="creativeCrewModal" class="ff">
+                    <div class="ff-content">
+                        <span class="close-btn">&times;</span>
+                        <h2 class="ff-writeup">Crew being Creative!!</h2>
+                        <div class="nationaldays">
+                            <div class="ndimgs"> 
+                                <img class="selfImg1" src="fashionShow.jpg" alt="Fashion Show">
+                                <img class="selfImg2" src="club_HouseMeet.jpg" alt="Trip">
+                                <!-- <img class="selfImg3" src="trip.jpg" alt="Sports House Meet"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="timeline">
+                <div class="container right-container">
+                  <img class="circleIcon" src="goldCircle.png" alt="Gold Circle">
+                  <button class="ff-button" id="echoesBtn">
+                    <div class="text-box">
+                      <small class="Link">Echoes of Elegance</small>
+                      <span class="right-container-arrow"></span>
+                    </div>
+                  </button>
+                  <div id="echoesModal" class="ff">
+                    <div class="ff-content">
+                      <span class="close-btn">&times;</span>
+                      <h2 class="ff-writeup">Elegance echoing!</h2>
+                      <div class="nationaldays">
+                        <div class="ndimgs"> 
+                          <img class="selfImg1" src="extraCurricular.jpg" alt="Extra-Curricular">
+                          <img class="selfImg2" src="extraCurricular2.jpg" alt="Extra-Curricular">
+                          <!-- <img class="selfImg3" src="christmas.jpg" alt="Christmas"> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+            <!-- <div class="container left-container">
+                <img class="circleIcon" src="goldCircle.png" alt="">
+                <div class="text-box">
+                    <small class="Link">Rising Stars</small>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div> -->
+
+            <div class="container left-container">
+                <img class="circleIcon" src="goldCircle.png" alt="">
+                <button class="ff-button" id="risingStarsBtn">
+                  <div class="text-box">
+                    <small class="Link">Rising Stars</small>
+                    <span class="left-container-arrow"></span>
+                  </div>
+                </button>
+              
+                <div id="risingStarsModal" class="ff">
+                  <div class="ff-content">
+                    <span class="close-btn">&times;</span>
+                    <h2 class="ff-writeup">Recognizing the stars!</h2>
+                    <div class="awards">
+                      <div class="award-images">
+                        <img class="selfImg1" src="award.jpg" alt="Award">
+                        <img class="selfImg2" src="award2.jpg" alt="Award">
+                        <!-- <img class="selfImg3" src="award3.jpg" alt="Award">
+                        <img class="selfImg4" src="award4.jpg" alt="Award">
+                        <img class="selfImg5" src="award5.jpg" alt="Award"> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+              <!-- <div class="container right-container">
+                <img class="circleIcon" src="goldCircle.png" alt="">
+                <div class="text-box">
+                    <small class="Link">ALL</small>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div> -->
+
+            <!-- <div class="container right-container">
+                <img class="circleIcon" src="goldCircle.png" alt="">
+                <button class="ff-button" id="allImagesBtn">
+                  <div class="text-box">
+                    <small class="Link">ALL</small>
+                    <span class="right-container-arrow"></span>
+                  </div>
+                </button>
+              
+        </div> -->
+
+        <!-- timeline code ends -->
+ </section>
+
+
+ <section id="facilities">
+    
+ </section>
+
+
+<!-- navbar khtm -->
+
+<!-- </br>
+    <button id="goToWhiteboard">NEW FEATURE!! - WhiteBoard</button>
+</br>
+<button class="flash-button" onclick="window.location.href='tutor.html'">Go to Tutoring Feature</button> -->
+
+         
+            
+
+
+<!--  code for curriculum starts-->
+  
+
+<footer>
+    <div class="scroll-container">
+        <div class="scroll-content">
+            <p>Email: <a href="mailto:duvinternationalschool@gmail.com">duvinternationalschool@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919891180055">+91 9891180055</a></p>
+            <p>Location: Sector 123, Noida</p>
+            <a href="https://facebook.com" target="_blank" class="icon fb-icon"></a>
+            <a href="https://instagram.com" target="_blank" class="icon ig-icon"></a>
+            <a href="https://linkedin.com" target="_blank" class="icon li-icon"></a>
+            <a href="https://twitter.com" target="_blank" class="icon tw-icon"></a>
+            <a href="https://pinterest.com" target="_blank" class="icon pi-icon"></a>
+        </div>
+    </div>
+</footer>
+ 
+
+    <script src="script.js"></script>
+    <script src="freedom.js"></script>
+    <script src="creative.js"></script>
+    <script src="curriculum.js"></script>
+    <script src="echoes.js"></script>
+    <script src="risingstars.js"></script>
+</body>
+</html>

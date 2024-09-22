@@ -1,3 +1,10 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    padding-top:-100px;
+}
+
 .HomeDiv{
     display: flex;
     flex-direction: row;
@@ -10,10 +17,13 @@
 }
 
 .features{
-    /* width: 800px;
-    height: 500px; */
-    margin-top: -500px;
-    background-color: #a7ffa9;
+    width: 500px;
+    height: 60px;
+    margin-top: -550px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #a7ffa9; */
+    z-index:2;
 }
 .newFeature1{
     width: 100%;

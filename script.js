@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.getElementById('goToWhiteboard').addEventListener('click', function() {
-    window.location.href = 'w.html'; 
+    window.location.href = 'whiteboard.html'; 
 });
 
 document.getElementById('goToWhiteboard').addEventListener('click', function() {
-    window.open('w.html', '_blank'); 
+    window.open('whiteboard.html', '_blank'); 
 });
 
 

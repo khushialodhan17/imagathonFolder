@@ -127,7 +127,7 @@ document.getElementById('eraseAll').addEventListener('click', () => {
 addPage();
 
 document.getElementById('goToWhiteboard').addEventListener('click', function() {
-    window.open('path/to/your/whiteboard.html', '_blank'); // Replace with your actual whiteboard page URL
+    window.open('whiteboard.html', '_blank'); // Replace with your actual whiteboard page URL
 });
 
 

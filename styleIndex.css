@@ -1,7 +1,7 @@
 .all{
     display: flex;
     flex-direction: column;
-    border: 2px black solid;
+    /* border: 2px black solid; */
     padding-top:-100px;
 }
 
@@ -16,32 +16,42 @@
     color: brown;
 }
 
-.features{
+.finalfeatures{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* .features{
     width: 500px;
     height: 60px;
-    margin-top: -450px;
+    margin-top: -550px;
     display: flex;
     flex-direction: row;
     /* background-color: #a7ffa9; */
-    z-index:2;
-}
-.newFeature1{
+ 
+/* .newFeature1{
     width: 100%;
     height: 84%;
     margin-left: 0px;
     /* border: black 2px solid; */
-    position: absolute;
+    /* position: absolute;
     margin-top:-20px ;
-}
+} */
 
-.newFeature2{
+/* .newFeature2{
     width: 100%;
     position: absolute;
     height: 70%;
     margin-left: 1050px;
     /* border: red 2px solid; */
-    margin-top: 20px;
-}
+    /* margin-top: 20px;
+} */ 
 
 .WelcomeDUV{
     /* border: green 2px solid ; */
@@ -64,12 +74,14 @@
     background-color: #ff9800; /* Bright orange */
     color: #ffffff; /* White text */
     border: none;
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
     animation: flash 1s infinite;
     transition: background-color 0.3s ease;
+    height: 40px;
+    margin-top: 8px;
 }
 
 /* Flashing Animation */
@@ -144,7 +156,7 @@ p:hover {
 /* About us ends */
 
 #goToWhiteboard {
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
     background-color: rgb(0, 72, 0) ;
     color: white;
     border: none;
@@ -154,7 +166,8 @@ p:hover {
     font-weight: bold;
     transition: background-color 0.3s;
     margin:15px;
-    margin-top:8px;
+    /* margin-top:8px; */
+    height: 30px;
 }
 
 .flash {
@@ -488,7 +501,7 @@ img{
     z-index: 1;
     border-top: 9px solid transparent;
     border-bottom: 11px solid transparent;
-    border-left: 15px solid pink;
+    border-left: 15px solid brown;
     right: -21px;
     z-index: 1;
 }
@@ -501,7 +514,7 @@ img{
     z-index: 1;
     border-top: 9px solid transparent;
     border-bottom: 11px solid transparent;
-    border-right: 15px solid pink;
+    border-right: 15px solid brown;
     left: -28px;
     z-index: 1;
 }
@@ -541,8 +554,8 @@ img{
 
     }
     .left-container-arrow, .right-container-arrow{
-        border-right: 15px pink;
-        border-left: 15px solid pink;
+        border-right: 15px brown;
+        border-left: 15px solid brown;
         left: 20px;
     }
 
@@ -575,7 +588,7 @@ img{
 
     }
     .left-container-arrow, .right-container-arrow{
-        border-right: 20px green;
+        border-right: 20px brown;
         padding-right: 5px;
         border-left: 20px solid brown;
         left: 20px;

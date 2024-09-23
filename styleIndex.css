@@ -9,15 +9,28 @@
     display: flex;
     flex-direction: row;
     position: relative;
+    background-color:rgb(225, 225, 40);
 }
 
-.gallery {
+.imageGallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.ourGalleryDiv{
+    height:250px;
+    left:50px;
+}
+
+.gallery1 {
     font-weight: bold;
     color: brown;
+    font-size:45px;
+
 }
 
 .finalfeatures{
-    background-color: beige;
+    background-color:rgb(225, 225, 40);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,6 +45,11 @@
      margin-top: 5px;
 }
 
+#gallery-whole{
+    height:80%;
+    margin:0;
+    padding:0;
+}
 
 
 /* .features{
@@ -107,7 +125,7 @@
 /* About us */
 body {
     font-family: Arial, sans-serif;
-    background-color: beige; 
+    background-color:rgb(225, 225, 40);; 
     color: #333; 
     line-height: 1.6; 
     margin: 20px;
@@ -259,7 +277,7 @@ nav a:active{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: beige;
+    background:rgb(225, 225, 40);;
     font-size: 20px;
     color: black;
     font-weight: normal;

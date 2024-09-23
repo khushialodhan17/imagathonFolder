@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="stylesofimage.css">
     <link rel="stylesheet" href="notify.css">
+    <link rel="stylesheet" href="g-threeD.css">
 </head>
 <body>
    <div>     
@@ -56,15 +57,15 @@
 
         <div class="slider">
             <div class="slides">
-                <img src="welcome.png" alt="Image 1">
-                <img src="welcome2.jpg" alt="Image 2">
-                <img src="welcome3.jpg" alt="Image 3">
-                <img src="extraCurricular2.jpg" alt="Image 4">
+                <img id="wa" src="welcome.png" alt="Image 1">
+                <img id="wb" src="welcome2.jpg" alt="Image 2">
+                <img id="wc" src="welcome3.jpg" alt="Image 3">
+                <img id="wd" src="extraCurricular2.jpg" alt="Image 4">
                 <!-- Repeat images for infinite effect -->
-                <img src="welcome.png" alt="Image 1">
-                <img src="welcome2.jpg" alt="Image 2">
-                <img src="welcome3.jpg" alt="Image 3">
-                <img src="extraCurricular2.jpg" alt="Image 4">
+                <img id="wa" src="welcome.png" alt="Image 1">
+                <img id="wb" src="welcome2.jpg" alt="Image 2">
+                <img id="wc" src="welcome3.jpg" alt="Image 3">
+                <img id="wd" src="extraCurricular2.jpg" alt="Image 4">
             </div>
         </div>
              
@@ -132,10 +133,7 @@
            <div id="na"><p id="n1"> CIRCULAR1 </p></div>
            <div id="nb"><p id="n2"> CIRCULAR2 </p></div>
            <div id="nc"><p id="n3"> CIRCULAR3 </p></div>
-           <div id="nd"><p id="n4"> CIRCULAR4 </p></div>
-           
-            
-            
+           <div id="nd"><p id="n4"> CIRCULAR4 </p></div> 
         </div>
     </div>
  
@@ -181,16 +179,12 @@
     
 </div>
 
-
-
- <section id="gallery">
+ <section id="gallery-whole">
 
     <div id="imagegallery">
-        <strong class="gallery">OUR GALLERY</strong>
-
-
+        <div class="ourGalleryDiv"><strong class="gallery1">OUR GALLERY</strong></div>
         <!-- timeline code  -->
-        <div class="timeline">
+        <!-- <div class="timeline">
             <div class="container right-container">
                 <img class="circleIcon" src="goldCircle.png" alt="">
                 <button class="ff-button" id="openModalBtn">
@@ -217,13 +211,6 @@
                 </div>
             </div>
 
-            <!-- <div class="container left-container">
-                <img class="circleIcon" src="goldCircle.png" alt="">
-                <div class="text-box">
-                    <small class="Link">Creative Crew</small>
-                    <span class="left-container-arrow"></span>
-                </div>
-            </div> -->
 
             <div class="container left-container" id="creativeCrewContainer">
                 <img class="circleIcon" src="goldCircle.png" alt="">
@@ -241,7 +228,6 @@
                             <div class="ndimgs"> 
                                 <img class="selfImg1" src="fashionShow.jpg" alt="Fashion Show">
                                 <img class="selfImg2" src="club_HouseMeet.jpg" alt="Trip">
-                                <!-- <img class="selfImg3" src="trip.jpg" alt="Sports House Meet"> -->
                             </div>
                         </div>
                     </div>
@@ -267,22 +253,12 @@
                         <div class="ndimgs"> 
                           <img class="selfImg1" src="extraCurricular.jpg" alt="Extra-Curricular">
                           <img class="selfImg2" src="extraCurricular2.jpg" alt="Extra-Curricular">
-                          <!-- <img class="selfImg3" src="christmas.jpg" alt="Christmas"> -->
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              
-
-            <!-- <div class="container left-container">
-                <img class="circleIcon" src="goldCircle.png" alt="">
-                <div class="text-box">
-                    <small class="Link">Rising Stars</small>
-                    <span class="left-container-arrow"></span>
-                </div>
-            </div> -->
 
             <div class="container left-container">
                 <img class="circleIcon" src="goldCircle.png" alt="">
@@ -301,35 +277,31 @@
                       <div class="award-images">
                         <img class="selfImg1" src="award.jpg" alt="Award">
                         <img class="selfImg2" src="award2.jpg" alt="Award">
-                        <!-- <img class="selfImg3" src="award3.jpg" alt="Award">
-                        <img class="selfImg4" src="award4.jpg" alt="Award">
-                        <img class="selfImg5" src="award5.jpg" alt="Award"> -->
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              
-
-              <!-- <div class="container right-container">
-                <img class="circleIcon" src="goldCircle.png" alt="">
-                <div class="text-box">
-                    <small class="Link">ALL</small>
-                    <span class="right-container-arrow"></span>
-                </div>
-            </div> -->
-
-            <!-- <div class="container right-container">
-                <img class="circleIcon" src="goldCircle.png" alt="">
-                <button class="ff-button" id="allImagesBtn">
-                  <div class="text-box">
-                    <small class="Link">ALL</small>
-                    <span class="right-container-arrow"></span>
-                  </div>
-                </button>
-              
         </div> -->
 
+
+        <div class="scope">
+            <span style="--i:1;"><img class="tdimg" src="extraCurricular.jpg" alt="not found"></span>
+            <span style="--i:2;"><img class="tdimg" src="extraCurricular2.jpg" alt="not found"></span>
+            <span style="--i:3;"><img class="tdimg" src="NationalDay.jpg" alt="not found"></span>
+            <span style="--i:4;"><img class="tdimg" src="award.jpg" alt="not found"></span>
+            <span style="--i:5;"><img class="tdimg" src="NationalDays2.jpg" alt="not found"></span>
+            <span style="--i:6;"><img class="tdimg" src="award2.jpg" alt="not found"></span>
+            <span style="--i:7;"><img class="tdimg" src="extraCurricular3.jpg" alt="not found"></span>
+            <span style="--i:8;"><img class="tdimg" src="fashionShow.jpg" alt="not found"></span>
+            <span style="--i:9;"><img class="tdimg" src="award3.jpg" alt="not found"></span>
+            <span style="--i:10;"><img class="tdimg" src="christmas.jpg" alt="not found"></span>
+            <span style="--i:11;"><img class="tdimg" src="award4.jpg" alt="not found"></span>
+            <span style="--i:12;"><img class="tdimg" src="club_HouseMeet.jpg" alt="not found"></span>
+            <span style="--i:13;"><img class="tdimg" src="extraCurricular4.jpg" alt="not found"></span>
+            <span style="--i:14;"><img class="tdimg" src="christmas2.jpg" alt="not found"></span>
+            <span style="--i:15;"><img class="tdimg" src="award5.jpg" alt="not found"></span>
+        </div>
         <!-- timeline code ends -->
  </section>
 </div>

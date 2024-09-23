@@ -24,7 +24,13 @@
     width: 95%;
 }
 
-
+#duvschool{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+    font-size: xx-large;
+     text-shadow: 0px 5px grey;
+     margin-top: 5px;
+}
 
 
 
@@ -106,6 +112,9 @@ body {
     line-height: 1.6; 
     margin: 20px;
 }
+#about{
+    background-color: rgb(3, 171, 3);
+}
 
 h1 {
     color: black; 
@@ -123,7 +132,7 @@ h2 {
 }
 
 p {
-    background-color:#a7ffa9; 
+    background-color:rgb(241, 195, 195); 
     padding: 15px;
     border-radius: 5px; 
     margin: 10px 0;

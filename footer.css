@@ -48,7 +48,7 @@ footer {
 .scroll-content {
     display: inline-flex;
     align-items: center;
-    animation: scroll 10s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .scroll-content p {
